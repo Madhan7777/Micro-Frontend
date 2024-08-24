@@ -1,0 +1,73 @@
+/* ViewAdminproduct.css */
+
+/* Global Styles for the Page */
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/011/048/401/non_2x/thanksgiving-food-and-beverage-background-free-vector.jpg'); /* Set your background image here */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+
+/* Container for the table and buttons */
+.table-container {
+  overflow-x: auto;
+  background: rgba(255, 255, 255, 0.8); /* Glass effect with slight transparency */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  padding: 20px;
+}
+
+/* Style for the table to ensure proper alignment */
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Style for table images */
+.table img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 15px; /* Rounded corners for images */
+}
+
+/* Style for the header */
+#header {
+  background: linear-gradient(135deg, #007bff, #00c6ff); /* Gradient background for header */
+  background: rgba(255, 255, 255, 0.8); /* Glass effect with slight transparency */
+  color: #00c6ff;
+  padding: 15px;
+  border-radius: 8px;
+  text-shadow: 2px 1px 2px rgba(34, 139, 225, 0.5); /* Text shadow for better readability */
+}
+
+/* Style for the icon buttons */
+.icon-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px; /* Space between buttons */
+}
+
+/* Specific styles for IconButton */
+.icon-buttons .MuiIconButton-root {
+  color: #000; /* Default color for icons */
+  transition: color 0.3s; /* Smooth transition for color changes */
+}
+
+.icon-buttons .MuiIconButton-root:hover {
+  color: #007bff; /* Color on hover */
+}
+
+.icon-buttons .MuiIconButton-root.MuiButtonBase-root.MuiIconButton-root {
+  padding: 8px; /* Padding around the icon */
+}
+
+/* Adjust color for delete button */
+.icon-buttons .MuiIconButton-root.MuiIconButton-colorError {
+  color: #dc3545; /* Red color for delete button */
+}
+
+.icon-buttons .MuiIconButton-root.MuiIconButton-colorError:hover {
+  color: #c82333; /* Darker red on hover */
+}

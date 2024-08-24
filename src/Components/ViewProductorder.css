@@ -1,0 +1,75 @@
+/* Container styling */
+.view-container {
+  max-width: 900px;
+  margin: 0 auto; /* Center container horizontally */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15); /* Semi-transparent background */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly more pronounced shadow */
+  backdrop-filter: blur(8px); /* Glass effect */
+  -webkit-backdrop-filter: blur(8px); /* Safari compatibility */
+}
+
+/* Heading styling */
+.view-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem; /* Increased font size for better readability */
+  color: white; /* Darker text color for contrast */
+}
+
+/* Table styling */
+.order-table {
+  width: 100%;
+  border-collapse: collapse; /* Remove spacing between borders */
+}
+
+/* Table header styling */
+.order-table th {
+  background: rgba(0, 123, 255, 0.8); /* Semi-transparent primary blue */
+  color: white; /* White text color */
+  border: 1px solid rgba(0, 123, 255, 0.5); /* Slightly transparent border */
+  padding: 12px; /* Padding for table cells */
+  text-align: left; /* Align text to the left */
+}
+
+/* Table cell styling */
+.order-table td {
+  border: 1px solid #ddd; /* Light border */
+  padding: 12px; /* Padding for table cells */
+  text-align: left; /* Align text to the left */
+}
+
+/* Alternating row colors */
+.order-table tr:nth-child(even) {
+  background-color: rgba(242, 242, 242, 0.5); /* Slightly transparent alternating row color */
+}
+
+/* Hover effect for rows */
+.order-table tr:hover {
+  background-color: rgba(221, 221, 221, 0.7); /* Slightly transparent highlight on hover */
+}
+
+/* Button styling */
+.view-button {
+  background: rgba(0, 123, 255, 0.8); /* Semi-transparent primary blue */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover transition */
+}
+
+.view-button:hover {
+  background: rgba(0, 123, 255, 1); /* Solid blue on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Error message styling */
+.text-danger {
+  color: #dc3545; /* Bootstrap danger color */
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+}

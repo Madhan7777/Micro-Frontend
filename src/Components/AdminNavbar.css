@@ -1,0 +1,133 @@
+/* AdminNavbar.css */
+
+/* General Styles for the Navbar */
+.navbar {
+  background-color: #000; /* Black background for the navbar */
+  padding: 0.5rem 1rem; /* Padding for better spacing */
+}
+
+.navbar-brand {
+  font-size: 1.75rem; /* Slightly larger font size for better visibility */
+  font-weight: bold; /* Bold font weight for brand name */
+  color: #fff; /* White color for the brand name */
+  text-transform: uppercase; /* Uppercase for brand name */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* White color for nav links */
+  padding: 0.5rem 1rem; /* Add padding for better spacing */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d3d3d3; /* Light gray color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Navbar Toggler Styles */
+.navbar-toggler {
+  border: none; /* Remove border */
+  background: #fff; /* White background for the toggler */
+  border-radius: 0.25rem; /* Rounded corners */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,...'); /* Custom icon image (optional) */
+}
+
+.center-text {
+  font-size: 1.5rem;
+  font-weight: 700; /* Adjust weight for boldness */
+  color: #FFD700; /* Attractive color like gold */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Optional: adds shadow for better readability */
+}
+
+.centered-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; /* Adjust height as needed */
+  padding: 20px;
+  font-size: 4.9rem;
+  color: black; /* Attractive color like gold */
+
+
+}
+
+/* Styles for the Carousel */
+#carouselExample {
+  position: relative;
+  width: 100vw; /* Full viewport width */
+  height: 60vh; /* Adjust height as needed */
+  max-height: 500px; /* Optional max-height for large screens */
+  overflow: hidden; /* Hide overflow for cleaner look */
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover; /* Ensure image covers the container */
+  width: 100%;
+  height: 100%;
+}
+
+/* Carousel Control Styles */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Adjust control width */
+  background-color: rgba(0, 0, 0, 0.3); /* Slightly transparent background */
+  border-radius: 50%; /* Rounded controls */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better visibility */
+  border-radius: 50%; /* Rounded icon backgrounds */
+}
+
+/* Carousel Indicators */
+.carousel-indicators [data-bs-target] {
+  background-color: #fff; /* White color for indicators */
+}
+
+.carousel-indicators .active {
+  background-color: #000; /* Black color for active indicator */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #carouselExample {
+    height: 40vh; /* Adjust carousel height on smaller screens */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 8%; /* Increase control width on smaller screens */
+  }
+
+  .navbar-brand {
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.25rem 0.5rem; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  #carouselExample {
+    height: 30vh; /* Further adjust carousel height on very small screens */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%; /* Further increase control width */
+  }
+
+}

@@ -1,0 +1,84 @@
+/* Container styling */
+#edit-product {
+  background: rgba(65, 224, 249, 0.1); /* Light frosted glass effect */
+  backdrop-filter: blur(10px); /* Blurring the background for glass effect */
+  border-radius: 15px; /* Rounded corners */
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  color: #333; /* Dark text color for contrast */
+}
+
+#edit-form {
+  background: rgba(255, 255, 255, 0.7); /* Slightly opaque background for form */
+  border-radius: 15px; /* Rounded corners */
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+}
+
+/* Heading styling */
+#edit-form h1 {
+  font-size: 2rem; /* Larger font size */
+  font-weight: 700;
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form elements styling */
+.form-control {
+  background: rgba(255, 255, 255, 0.9); /* Slightly opaque background */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Padding inside input fields */
+  margin-bottom: 15px; /* Space between fields */
+  font-size: 1rem; /* Consistent font size */
+  color: #333; /* Dark text color */
+}
+
+/* Label styling */
+form label {
+  font-weight: 600; /* Bold labels */
+  color: #555; /* Darker text color for labels */
+}
+
+/* Button styling */
+.btn-info {
+  background-color: #007bff; /* Primary blue color */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button */
+  font-size: 1rem; /* Font size */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.btn-info:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight scaling effect */
+}
+
+.btn-info.fst-italic {
+  font-style: italic; /* Italic text */
+}
+
+/* Input file styling */
+.form-control[type="file"] {
+  border: none; /* Remove border */
+  padding: 5px; /* Padding inside file input */
+}
+
+/* Error and success messages styling */
+.alert {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.alert-danger {
+  color: #dc3545; /* Bootstrap danger color */
+}
+
+.alert-success {
+  color: #28a745; /* Bootstrap success color */
+}

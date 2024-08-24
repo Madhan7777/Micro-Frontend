@@ -1,0 +1,84 @@
+/* Ensure the container takes up the full height of the viewport and centers its content */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem; /* Increase padding for better spacing */
+  background-color: #f8f9fa;
+  box-sizing: border-box; /* Ensure padding is included in the total width/height */
+}
+
+/* Style for the form */
+.register-container form {
+  max-width: 500px;
+  width: 100%;
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 12px; /* More rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow for better visibility */
+  padding: 2rem; /* Increase padding for better spacing */
+  box-sizing: border-box; /* Ensure padding is included in the total width */
+  margin: 0 auto; /* Center the form */
+}
+
+/* Style for form headings */
+.register-container h2 {
+  margin-bottom: 1.5rem;
+  color: #333333; /* Dark color for the heading text */
+  font-size: 2rem; /* Slightly larger font size */
+  font-weight: 600; /* Bold font weight */
+  text-align: center; /* Center align heading */
+}
+
+/* Style for form labels */
+.register-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555555; /* Slightly lighter color for label text */
+  font-size: 1rem; /* Consistent font size */
+}
+
+/* Style for form inputs */
+.register-container input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cccccc; /* Slightly lighter border color */
+  border-radius: 6px; /* Slightly more rounded corners */
+  font-size: 1rem; /* Consistent font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+/* Add focus state styles for inputs */
+.register-container input:focus {
+  border-color: #007bff; /* Blue border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle blue shadow on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Style for the submit button */
+.register-container button {
+  background-color: #007bff; /* Primary blue color */
+  color: #ffffff; /* White text color */
+  border: none;
+  padding: 0.75rem 1.5rem; /* Increased padding for better button size */
+  border-radius: 6px; /* Slightly more rounded corners */
+  font-size: 1rem; /* Consistent font size */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+/* Change button color on hover */
+.register-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Style for error messages */
+.text-danger {
+  color: #dc3545; /* Red color for error messages */
+  font-size: 0.875rem; /* Slightly smaller font size */
+  margin-top: 1rem; /* Space above error messages */
+  text-align: center; /* Center align error messages */
+}

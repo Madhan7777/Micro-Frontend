@@ -1,0 +1,99 @@
+/* General Contact Section Styles */
+.contact {
+  background: #fff;
+  padding: 5rem 2rem;
+}
+
+/* Heading Styles */
+.contact .heading {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+/* Container for Map and Form */
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+/* Map Styles */
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  height: 30rem; /* Ensure the map has a fixed height */
+  object-fit: cover;
+  border-radius: 0.5rem; /* Optional: for rounded corners */
+}
+
+/* Form Styles */
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+  background: #f9f9f9; /* Slightly different background for form */
+  border-radius: 0.5rem; /* Optional: for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+/* Form Heading Styles */
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+/* Input Box Container Styles */
+.contact .row form .inputBox {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #fff;
+  border: 0.2rem solid slategray;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Input Box Label Styles */
+.contact .row form .inputBox span {
+  color: aquamarine;
+  font-size: 2rem;
+  padding-left: 2rem;
+  white-space: nowrap;
+}
+
+/* Input Styles */
+.contact .row form .inputBox input {
+  flex: 1;
+  padding: 2rem;
+  font-size: 1.7rem;
+  color: #333; /* Darker text color for better readability */
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* Button Styles */
+.contact .row form .btn {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: slategray;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.3rem; /* Optional: for rounded corners */
+  transition: background-color 0.3s, letter-spacing 0.3s; /* Smooth transitions */
+}
+
+/* Button Hover Styles */
+.contact .row form .btn:hover {
+  letter-spacing: 0.2rem;
+  background: darkslategray; /* Darker shade on hover */
+}
